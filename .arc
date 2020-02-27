@@ -1,18 +1,18 @@
 @app
-learn-forms
+umami-qob
 
 @static
 folder _site
 
 @http
-post /logout              # clear session
-get /login                # create session
-get /admin                # list drafts
-get /drafts/:key          # edit draft 
-post /drafts              # create draft
-post /drafts/:key         # update draft
-post /drafts/:key/destroy # destroy draft
-post /drafts/:key/publish # publish draft!
+post /logout
+get /login
+get /admin
+get /drafts/:key
+post /drafts
+post /drafts/:key
+post /drafts/:key/destroy
+post /drafts/:key/publish
 
 @tables
 data
