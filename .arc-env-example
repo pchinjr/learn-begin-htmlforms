@@ -1,0 +1,5 @@
+@testing
+GITHUB_CLIENT_ID XXXX
+GITHUB_CLIENT_SECRET  XXXX
+GITHUB_REDIRECT http://localhost:3333/login
+GITHUB_REPO https://github.com/github-user/project-repo

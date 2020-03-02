@@ -13,6 +13,7 @@ async function publish(req) {
   try {
     let token = req.session.account.token
     let draft = await drafts.read(req.params) 
+    console.log(draft)
 
     // publish to github
     await github({token, draft})
